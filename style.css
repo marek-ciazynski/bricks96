@@ -1,0 +1,25 @@
+#game {
+	position: relative;
+	border: 2px #ccc solid;
+	overflow: hidden;
+}
+
+#game * {
+	pointer-events: none;
+}
+
+.not-selectable {
+	user-select: none;
+}
+
+.paddle {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.ball {
+	position: absolute;
+	top: 0; left: 0;
+}
